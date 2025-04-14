@@ -23,18 +23,18 @@
 
 
 
-  const price = (0,21)
-  // * console .log (price)
+  const price = (0.21)
+  console .log (price)
 
   
 
 
 
 const numberKm = prompt("Quanti chilometri percorrerai?")
-  console .log = (numberKm)
+  console .log(numberKm);
 
 const userAge = prompt("Quanti anni hai?")
-console .log = (userAge)
+console .log(userAge);
 
 
 
@@ -51,13 +51,13 @@ const firstData = price * numberKm
 
 
 if (userAge < 19) {
-    console .log = ((price * numberKm) / underDiscount)
+    console .log((price * numberKm) / underDiscount);
 } else if (userAge > 64) {
-    console .log = ((price * numberKm) / overDiscount)
+    console .log ((price * numberKm) / overDiscount);
 } if (userAge > 18) {
-    console .log (firstData)
+    console .log(firstData);
 } else if (userAge < 65) {
-    console .log = (firstData)
+    console .log(firstData);
 }
 
 
